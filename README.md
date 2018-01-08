@@ -2,7 +2,7 @@
 
 A security report spell-checker and language enhancement tool. _bountify.sh_ automatically replaces common mistakes in reports, runs a spell-check on your report and then notifies you if any insensitive or inconsiderate language was used.
 
-![image](https://user-images.githubusercontent.com/18099289/34675669-a522cf46-f48a-11e7-8060-3d749c2575fc.png)
+![image](https://user-images.githubusercontent.com/18099289/34677071-405c33cc-f48f-11e7-8714-84e928f8f749.png)
 
 # Installation
 
