@@ -40,7 +40,7 @@ example.com is vulnerble to XSS allowing an attacker to inject arbatrary web-scr
 allowing him to steal cookies and hijack sessions. Injecting `javascript:alert(1)`
 into the vulnerable parameter `q` on `/welcome/` triggers an alert box.
 
-[+] Autocorrect
+[+] Naming convention substitution
 
 Hi,
 
