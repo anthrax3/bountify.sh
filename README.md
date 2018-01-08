@@ -55,7 +55,7 @@ vulnerble
 arbatrary
 javascript
 
-[+] Insensitive & inconsiderate language check
+[+] Insensitive & inconsiderate language check (using alex)
 
 report.txt
   3:112-3:115  warning  `him` may be insensitive, use `their`, `theirs`, `them` 
