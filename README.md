@@ -2,8 +2,6 @@
 
 A little spell-checker and language enhancement tool I use for my security reports. _bountify.sh_ checks your naming convention, runs a spell-check on your report and then notifies you if any insensitive or inconsiderate language was used.
 
-![image](https://user-images.githubusercontent.com/18099289/34677071-405c33cc-f48f-11e7-8714-84e928f8f749.png)
-
 # Installation
 
 ## 🐧 Linux
