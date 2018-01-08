@@ -31,5 +31,5 @@ printf "\\n"
 printf "${GREEN}[+]${END} Spellcheck\\n\\n"
 cat report.txt | aspell -a | cut -d ' ' -f 2 | grep -v '*\|International' | sed '/^\s*$/d'
 echo ""
-printf "${GREEN}[+]${END} Insensitive & inconsiderate language check\\n\\n"
+printf "${GREEN}[+]${END} Insensitive & inconsiderate language check (using alex)\\n\\n"
 alex report.txt
