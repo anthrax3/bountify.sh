@@ -19,7 +19,9 @@ cat $1
 printf "\\n${GREEN}[+]${END} Naming convention substitution\\n\\n"
 while read line; do
     sed -E 's/Dear sir/Hi/Ig; s/TAXI DRIVER/uber/Ig; s/bounty pls|bounty please//Ig; 
-    		s/(.)RCE/\1remote code execution/Ig; s/a XSS|an XSS/a cross-site scripting vulnerability/Ig; 
+    		s/(.)RCE/\1remote code execution/Ig; s/(.)cross site scripting/\1cross-site scripting/Ig;
+    		s/(.)CSRF/\1cross-site request forgery/Ig; s/(.)cross site request forgery/\1cross-site request forgery/Ig;
+    		s/a XSS|an XSS/a cross-site scripting vulnerability/Ig; 
     		s/(.)XSS/\1cross-site scripting/Ig; s/(.)SSRF/\1server-side request forgery/Ig; 
     		s/SQLi/SQL injection/Ig; s/(.)POC/\1proof of concept/Ig; s/\<i\>/I/g;
     		s/a hacker|an attacker/an adversary/Ig; s/(.)\<hacker\>|(.)\<attacker\>/\1adversary/Ig; 
